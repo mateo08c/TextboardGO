@@ -30,7 +30,7 @@ func (e *Subscribe) ToData() ([]byte, error) {
 	return nil, nil
 }
 
-func (e *Subscribe) Parse(data []byte) (interface{}, error) {
+func (e *Subscribe) Parse([]byte) (interface{}, error) {
 	return nil, nil
 }
 

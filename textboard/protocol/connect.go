@@ -35,7 +35,7 @@ func (c *Connect) ToData() ([]byte, error) {
 	return []byte(data), nil
 }
 
-func (c *Connect) Parse(data []byte) (interface{}, error) {
+func (c *Connect) Parse([]byte) (interface{}, error) {
 	return nil, nil
 }
 

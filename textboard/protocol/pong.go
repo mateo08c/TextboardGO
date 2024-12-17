@@ -10,7 +10,7 @@ func (e *Pong) ToData() ([]byte, error) {
 	return nil, nil
 }
 
-func (e *Pong) Parse(data []byte) (interface{}, error) {
+func (e *Pong) Parse([]byte) (interface{}, error) {
 	return nil, nil
 }
 

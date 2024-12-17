@@ -31,7 +31,7 @@ func (e *Send) ToData() ([]byte, error) {
 	data += "\x00"
 	return []byte(data), nil
 }
-func (e *Send) Parse(data []byte) (interface{}, error) {
+func (e *Send) Parse([]byte) (interface{}, error) {
 	return nil, nil
 }
 

@@ -10,7 +10,7 @@ func (e *Ping) ToData() ([]byte, error) {
 	return []byte("\n\n"), nil
 }
 
-func (e *Ping) Parse(data []byte) (interface{}, error) {
+func (e *Ping) Parse([]byte) (interface{}, error) {
 	return nil, nil
 }
 
